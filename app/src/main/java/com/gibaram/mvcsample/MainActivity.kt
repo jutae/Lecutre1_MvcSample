@@ -7,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    // 모델 인스턴스
     private val counter = Counter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
